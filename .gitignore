@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Windows & IDE
+.idea/
+.vscode/
+*.swp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Android & Gradle
+.gradle/
+build/
+android/.gradle/
+android/app/build/
+android/build/
+local.properties
+*.iml
+*.hprof
+
+# Cloudflare & Binaries
+cloudflared.exe
+*.log
+
+# Temporary XML/PNG dumps
+dump_*.xml
+receipt_dump.xml
+pay_dump.xml
+history_dump.xml
+success_dump.xml
+confirm_dump*.xml
+pay_scrolled.xml
+post_pay_receipt.xml
+window_dump.xml
+*.png
+!android/app/src/main/res/**/*.png
